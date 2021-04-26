@@ -1,0 +1,27 @@
+.about{
+    position: relative;
+  
+}
+body{
+    line-height: 1.6;
+}
+
+.about .content h1{
+    /* text-align: center; */
+    /* padding: 20px; */
+    /* margin-top: 30px; */
+    font-size: 100px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.content p{
+    max-width: 800px;
+    /* text-align: center; */
+    align-items: center;
+}

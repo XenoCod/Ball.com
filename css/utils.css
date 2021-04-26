@@ -1,0 +1,107 @@
+:root {
+  --clr-main-bg: #4362c9;
+
+  /* font family */
+  --ff-primary: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  --ff-secondary: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  --ff-content: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+
+  /* font weights */
+  --fw-primary: 800;
+  --fw-secondary: 550;
+  --fw-content: 450;
+  --fw-head-content: 700;
+  --fw-sub-content: 400;
+
+  /* font sizes */
+  --fs-logo: 3.125rem;
+  --fs-nav-items: 1rem;
+  --fs-primary: 3rem;
+  --fs-secondary: 1rem;
+  --fs-content: 1rem;
+
+  /* line heights */
+  --lh-primary: 3.75rem;
+  --lh-secondary: 1.75rem;
+  --lh-content: 0.3125rem;
+  --lh-head-content: 1.75rem;
+  --lh-sub-content: 1.25rem;
+
+  /* font colors */
+  --clr-fc-primary: #292929;
+  --clr-fc-secondary: #757575;
+  --clr-fc-content: rgba(0, 0, 0, 0.8);
+
+  /* sub-content fonts */
+
+  --ff-head-content: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --ff-sub-content: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --fs-head-content: 1.375rem;
+  --fs-sub-content: 1rem;
+}
+
+.home-style {
+  font-size: var(--fs-sub-content);
+  font-family: var(--ff-sub-content);
+  color: var(--clr-fc-secondary);
+  line-height: var(--lh-sub-content);
+  font-size: var(--fs-sub-content);
+  font-weight: var(--fw-sub-content);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.content-margin{
+  padding: 70px;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.make-center {
+  margin: auto;
+}
+
+.form-input {
+  /* padding: 0px .125rem; */
+  font-size: var(--fs-secondary);
+  font-family: var(--ff-secondary);
+  border: 3px solid black;
+  border-radius: 0.25rem;
+  padding-top: 0.1875rem;
+}
+.btn {
+  padding: 0.11rem 0.9375rem;
+
+  font-family: var(--ff-secondary);
+  font-size: 13px;
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 0.25rem;
+}
+
+.btn-press {
+  position: relative;
+  top: 0;
+  background: #333;
+  color: #fff;
+  box-shadow: 0px 6px #6c63ff;
+  transition: 0.5s !important;
+}
+
+.btn-press:hover {
+  top: 3px;
+  box-shadow: 0px 3px #4d43fa;
+}
+
+.btn-press:active {
+  top: 6px;
+  box-shadow: 0px 0px #140cb1;
+}

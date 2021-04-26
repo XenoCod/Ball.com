@@ -1,0 +1,55 @@
+:root {
+  --fs-small: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+  }
+  .left {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-input{
+      width: 50%;
+  }
+  .content {
+    font-size: var(--fs-small);
+    flex-direction: column;
+  }
+  .content p {
+    width: 100%;
+    /* padding: 0 30px; */
+  }
+  .content img {
+    width: 70vw;
+    text-align: center;
+    /* margin: auto; */
+  }
+  .home-articles {
+    flex-direction: column;
+    /* position: absolute; */
+    
+  
+  }
+  .home-article img{
+      text-align: center;
+  }
+
+  .home-article-layout {
+    flex-direction: column;
+   ;
+    
+  }
+  .box{
+      position:sticky;
+      /* top: 100vh;
+      bottom: 0;
+      left: 0;
+      right: 0; */
+  }
+  
+}

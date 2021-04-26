@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: var(--ff-primary); */
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*  
+.main {
+ display: flex;
+ flex-direction: column;
+}  */
+
+.box {
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 10px #6c63ff;
+  flex-direction: column;
+  color: black;
+  position: absolute;
+  overflow: hidden;
+  top: 200px;
+  right: 0;
+  background-color: white;
+  border-radius: 23px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-head{
+  
+  
+  flex-direction: column;
+  color: black;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  color: #6c63ff;
+  font-family: var(--ff-head-content);
+  font-weight: var(--fw-head-content);
+  font-style:italic;
+  top: 160px;
+  right: 55px;
+  background-color: white;
+  border-radius: 23px;
+
+}
+
+.box img {
+  /* width: 100px; */
+  height: 100px;
+  border-radius: 100px;
+}
+
+.user-name {
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-primary);
+}
+
+.skill {
+  color: black;
+}
+
+.arr-container,
+.cancel {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  background: white;
+  bottom: 0;
+  right: 0;
+  border-radius: 23px 0 23px 0;
+  color: rgb(70, 70, 70);
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.arr-container img {
+  transform: rotate(-45deg);
+  width: 30px;
+  height: 30px;
+  image-orientation: center;
+}
+
+.active-arr {
+  transform: translate(80%, 80%);
+}
+
+.left-container {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  padding: 40px 0 0 20px;
+  transition: all 0.4s;
+  color: black;
+}
+
+.off {
+  transform: translate(-80%, -80%) rotate(90deg);
+}
+
+.active {
+  transform: translate(0) rotate(0);
+}
+
+.left-container p {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.left-container .skills div {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-weight: var(--fw-primary);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  margin: 4px 4px 4px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.left-container .icons {
+  /* font-size: 1.6rem; */
+  margin-top: 10px;
+}
+
+.left-container .icons img {
+  color: #cfcfcf;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.4s;
+  width: 40px;
+  height: 40px;
+  /* filter: invert(100%); */
+}
+
+.left-container .icons img:hover {
+  color: black;
+  box-shadow: 0 5px 5px black;
+}
+
+.left-container .skills div:hover {
+  transform: scale(1.11);
+  box-shadow: 0 5px 5px black;
+  font-weight: bolder;
+  color: ;
+}
+
+.cancel-btn img {
+  transform: rotate(145deg);
+  width: 30px;
+  height: 30px;
+  image-orientation: center;
+}
